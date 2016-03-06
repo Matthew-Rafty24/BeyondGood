@@ -1,0 +1,109 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*Main Styles*/
+
+body {
+    font-family: 'Work-Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+
+/*Landing Styles*/
+
+.landing {
+    overflow: hidden;
+    background-size: cover !important;
+	background: #fcc02a;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 720px;
+	}
+
+.jumbotron {
+	background-color: transparent !important;
+	color: #000 !important;
+	text-align: center;
+	position: relative;
+	top: 150px;
+	left: auto;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+/*Navbar Styles*/
+
+.navbar-default {
+	background-color: #fcc02a !important;
+	border-color: #fcc02a !important;
+	padding-top: 10px;
+
+}
+
+.navbar-default .navbar-brand {
+	color: #fff !important;
+	font-size: 25px;
+}
+
+.navbar-brand h1 {
+	padding-right: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff !important;
+	font-size: 16px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	background-color: #000 !important;
+}
+
+.navbar-toggle {
+	background-color: none !important;
+	border-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff !important;
+}
+
+/*Footer Styles*/
+
+footer {
+	background-color: #fcc02a;
+	height: 45px;
+	color: #fff;
+}
+
+#main-footer p {
+	color: #fff;
+	font-size: 16px;
+	position: relative;
+	float: center;
+	text-align: center;
+	text-transform: none;	
+}
+
